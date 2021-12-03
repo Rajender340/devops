@@ -4,9 +4,7 @@ pipeline{
     }
 stages{
     stage('Generate') {
-    node {
         checkout scm
-    }
     }
 }
 }
