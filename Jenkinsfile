@@ -3,7 +3,7 @@ pipeline{
         label 'slave'
     }
 stages{
-    stage('Generate') {
+    stage('checkout scm') {
         checkout scm
     }
 }
