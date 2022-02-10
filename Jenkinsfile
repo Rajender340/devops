@@ -3,8 +3,10 @@ pipeline{
         label 'slave'
     }
 stages{
-    stage('checkout'){
+    stage('checkout scm') {
+        steps{
         checkout scm
     }
-    }
+}
+}
 }
